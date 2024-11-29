@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cisu.css">
+    <title>Cadastro</title>
+</head>
+<body id="cadastro">
+<header>
+    <h1>SITE DO CEEP JOSÉ PACÍFICO DE MOURA NETO</h1>
+    <nav>
+        <img src="pacificologo.png" alt="Logo da Escola" class="logo">
+        <a href="index.html">Inicio</a>
+        <a href="cadastro.html">Cadastro</a>
+        <a href="login.html">Login</a>
+        <a href="batepapo.html">Bate Papo</a>
+        <a href="calendario.html">Calendário</a>
+    </nav>
+</header>
+
+<div class="base">
+    <form>
+        <h3>Nome:*</h3>
+        <input type="text" id="nome" maxlength="50" required placeholder="Digite seu nome"><br>
+        
+        <h3>E-mail:*</h3>
+        <input type="email" id="email" maxlength="30" required placeholder="Digite seu email"><br>
+        
+        <h3>Telefone:*</h3>
+        <input type="tel" id="telefone" maxlength="11" required placeholder="Digite seu telefone"><br>
+        
+        <h3>Senha:*</h3>
+        <input type="password" id="senha" maxlength="11" required placeholder="Digite uma senha"><br>
+        
+        <h3>Sexo:*</h3>
+        <label for="masculino">
+            <input type="radio" id="masculino" name="sexo" required> Masculino
+        </label>
+        <label for="feminino">
+            <input type="radio" id="feminino" name="sexo" required> Feminino
+        </label><br>
+
+        <h3>Data de Nascimento:*</h3>
+        <input type="date" id="data_nascimento" required><br><br>
+        
+        <input type="submit" value="CADASTRE-SE">
+        <input type="reset" value="CANCELAR">
+    </form>
+</div>
+
+</body>
+</html>
+
+
